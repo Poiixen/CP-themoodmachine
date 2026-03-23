@@ -23,6 +23,12 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    # Slang with positive meaning in modern usage
+    "sick",   # "that was sick" = impressive
+    "fire",   # "this is fire" = excellent
+    "lit",    # "last night was lit" = exciting
+    "dope",   # "that's dope" = cool
+    "goated", # "she's goated" = the greatest
 ]
 
 NEGATIVE_WORDS = [
@@ -50,6 +56,14 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "ngl this hits different 😭🔥",
+    "ugh another Monday... at least coffee exists I guess",
+    "lowkey stressed but it's whatever lol",
+    "just got the job offer!!! I'm literally shaking rn 🥹",
+    "idk man everything feels kinda meh lately",
+    "had such a good time w the squad tonight 💙",
+    "this is genuinely the worst thing that's happened to me all week",
+    "not gonna lie I'm kinda proud of myself for once",
 ]
 
 # Human labels for each post above.
@@ -65,6 +79,14 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "ngl this hits different 😭🔥"
+    "mixed",     # "ugh another Monday... at least coffee exists I guess"
+    "mixed",     # "lowkey stressed but it's whatever lol"
+    "positive",  # "just got the job offer!!! I'm literally shaking rn 🥹"
+    "negative",  # "idk man everything feels kinda meh lately"
+    "positive",  # "had such a good time w the squad tonight 💙"
+    "negative",  # "this is genuinely the worst thing that's happened to me all week"
+    "positive",  # "not gonna lie I'm kinda proud of myself for once"
 ]
 
 # TODO: Add 5-10 more posts and labels.
